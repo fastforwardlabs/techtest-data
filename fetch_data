@@ -1,0 +1,6 @@
+#!/bin/bash
+
+curl \
+    --data @_data_request.post \
+    "https://nycopendata.socrata.com/api/views/erm2-nwe9/rows.csv?accessType=DOWNLOAD" \
+    --output 311_data.csv
